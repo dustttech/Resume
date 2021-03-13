@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  width: 1200px;
+  height: 95%;
+  border-radius: 5px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+.resume__left {
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 5rem;
+}
+
+.info {
+  width: 100%;
+  font-size: 2rem;
+}
+.info__name {
+  color: #333333;
+}
+.info__name > span {
+  display: block;
+}
+.info__name--first {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.info__name--last {
+  font-size: 4.5em;
+  margin-top: -0.5em;
+}
+.info__job {
+  display: inline-block;
+  background-color: #333333;
+  color: #fafafa;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.contact {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.contact__icon-wrapper {
+  width: 35px;
+  height: 35px;
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.contact__icon-wrapper i {
+  color: #fafafa;
+}
+.contact__info {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: #222;
+}
+
+.section {
+  padding-top: 3rem;
+  line-height: 2;
+}
+.section__title {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+}
+.section__sub-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #79797b;
+}
+.section__list {
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
