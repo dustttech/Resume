@@ -3,6 +3,7 @@
 $fw-light: 300;
 $fw-normal: 400;
 $fw-extra-normal: 500;
+$fw-light-bold: 600;
 $fw-bold: 700;
 // COLOR
 $cl-text-gray: #79797b;
@@ -169,7 +170,7 @@ a {
         list-style-position: inside;
         font-size: 1.5rem;
         &-details {
-            font-weight: 600;
+            font-weight: $fw-light-bold;
             text-transform: uppercase;
         }
     }
@@ -193,6 +194,9 @@ a {
         }
         &--link {
             padding-top: 0.5rem;
+        }
+        &--main {
+            font-weight: $fw-light-bold;
         }
     }
     &__link {

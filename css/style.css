@@ -175,6 +175,9 @@ a {
 .section__describe--link {
   padding-top: 0.5rem;
 }
+.section__describe--main {
+  font-weight: 600;
+}
 .section__link {
   color: blue;
   letter-spacing: 2px;
