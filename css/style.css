@@ -61,11 +61,13 @@ a {
   flex-wrap: wrap;
   position: relative;
 }
-.resume__wrapper .resume__download {
+.resume__wrapper .resume__btn-block {
   position: absolute;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
+}
+.resume__wrapper .resume__btn {
   color: #fafafa;
   font-weight: 500;
   text-transform: uppercase;
@@ -78,7 +80,7 @@ a {
   transition: 0.3s ease-in-out;
   border: 2px solid #222;
 }
-.resume__wrapper .resume__download:hover {
+.resume__wrapper .resume__btn:hover {
   background-color: #fafafa;
   color: #222;
 }
@@ -92,6 +94,16 @@ a {
 }
 .resume__collumn .section:last-child {
   padding-top: 0;
+}
+
+.main__raw {
+  display: block;
+  background-image: none;
+}
+
+.resume__raw {
+  height: auto;
+  margin: 0 auto;
 }
 
 .info {

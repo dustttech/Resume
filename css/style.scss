@@ -87,10 +87,12 @@ a {
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        .resume__download {
+        .resume__btn-block {
             position: absolute;
             left: 50%;bottom: 0;
             transform: translateX(-50%);
+        }
+        .resume__btn {
             color: #fafafa;
             font-weight: $fw-extra-normal;
             text-transform: uppercase;
@@ -121,6 +123,15 @@ a {
         }
     }
 
+}
+.main__raw {
+    display: block;
+    background-image: none;
+
+}
+.resume__raw {
+    height: auto;
+    margin: 0 auto;
 }
 // INFO
 .info {
