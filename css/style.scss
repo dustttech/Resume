@@ -88,11 +88,14 @@ a {
         flex-wrap: wrap;
         position: relative;
         .resume__btn-block {
+            width: 100%;
             position: absolute;
             left: 50%;bottom: 0;
             transform: translateX(-50%);
+            text-align: center;
         }
         .resume__btn {
+            display: inline-block;
             color: #fafafa;
             font-weight: $fw-extra-normal;
             text-transform: uppercase;
@@ -321,17 +324,18 @@ a {
         }
         &__group--reverse {
             @include flex-wrap(row-reverse);
+            justify-content: space-between;
             .section__title {
                 width: 100%;
             }
             .section__group {
-                width: 50%;
+                width: 48%;
             }
         }
     }
 }
 
-@media (max-width:699px) {
+@media (max-width:799px) {
     .resume {
         height: 100%;
         &__collumn {
@@ -339,6 +343,9 @@ a {
                 padding-bottom: 8rem;
             }
         }
+    }
+    .resume__raw {
+        width: 100%;
     }
     .section {
         &__group--wrapper,
